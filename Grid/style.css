@@ -1,0 +1,54 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+#grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background: white;
+    max-height: 960px;
+    max-width: 960px;
+
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 2px solid cyan;
+    background-color: black;
+
+}
+
+
+/* .cell:hover {
+  background-color: lightblue;
+} */
+
+button {
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 200;
+    color: cyan;
+    background: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+
+}
+
+.container {
+    text-align: center;
+}
